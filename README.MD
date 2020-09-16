@@ -25,6 +25,6 @@
 
 No terminal clone o projeto
 
-> git clone https://github.com/amandagdev/animais-fantastico.git
+> git clone https://github.com/JosephMartins/animals-fantastics.git
 
 Agora é só abrir o arquivo index.html
