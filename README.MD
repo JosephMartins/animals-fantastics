@@ -5,7 +5,7 @@
 <p align="justify">Site desenvolvido com html, css e javascript vanilla seguindo layout e curso da Origamid.</p>
 
 ## Deploy no Netlify:
-
+https://animalsfantastics.netlify.app/
 
 ## Conhecimentos adquiridos
 
