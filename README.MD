@@ -7,7 +7,7 @@
 ## Deploy no Netlify:
 https://animalsfantastics.netlify.app/
 
-Projeto encontra-se em andamento :heavy_check_mark:
+Projeto encontra-se em andamento 
 
 ## Para escutar a aplicação em sua máquina
 
