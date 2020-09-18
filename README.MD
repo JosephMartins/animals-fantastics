@@ -1,30 +1,18 @@
-# animais-fantastico
+<h1 align="center">Animals-Fantastics</h1>
 
 ## Descrição do Projeto
 
-<p align="justify">Site desenvolvido com html, css e javascript vanilla seguindo layout e curso da Origamid.</p>
+<p align="justify">Site desenvolvido com o intuito de colocar em pratica HTML, CSS e como principal Vanilla Javascript</p>
 
 ## Deploy no Netlify:
 https://animalsfantastics.netlify.app/
 
-## Conhecimentos adquiridos
+Projeto encontra-se em andamento :heavy_check_mark:
 
-- [x] ES6+
-- [x] Pequenas animações em css
-- [x] Modules
-- [x] Consumo de api rest
-- [x] Regex
-- [x] Classes
-- [x] Eslint
-- [x] Webpack
-- [x] Babel
+## Para escutar a aplicação em sua máquina
 
-> Status do Projeto: Andamento :heavy_check_mark:
+clone o projeto
 
-## Como rodar a aplicação
+´´´ git clone https://github.com/JosephMartins/animals-fantastics.git ´´´
 
-No terminal clone o projeto
-
-> git clone https://github.com/JosephMartins/animals-fantastics.git
-
-Agora é só abrir o arquivo index.html
+>> Execute em seu navegar index.html
