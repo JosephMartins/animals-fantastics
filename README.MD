@@ -16,4 +16,4 @@ clone o projeto
 ``` 
 git clone https://github.com/JosephMartins/animals-fantastics.git
 ```
->> Execute em seu navegar index.html
+>> Execute em seu navegador index.html 
