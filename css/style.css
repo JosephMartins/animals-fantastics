@@ -13,8 +13,8 @@ ul {
 }
 
 body {
-  background: #faf6ed;
-  color: #222;
+  background: #384258;
+  color: #d8d8d8;
   -webkit-font-smoothing: antialiased;
   display: grid;
   grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
@@ -24,7 +24,7 @@ body {
   grid-column: 3 / 5;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: #FB5;
+  background: #222;
 }
 
 .menu ul {
@@ -37,7 +37,7 @@ body {
   display: block;
   padding: 10px;
   margin-right: 10px;
-  color: #222;
+  color: #d8d8d8;
   text-decoration: none;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
@@ -58,8 +58,8 @@ body {
 }
 
 .titulo {
-  font-family: 'Playfair Display SC', georgia;
-  font-size: 6rem;
+  font-family: 'Bebas Neue', georgia;
+  font-size: 9rem;
   line-height: 1;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -72,7 +72,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: 1rem;
-  color: #E54;
+  color: #20ded6;
 }
 
 .animais h2::before {
@@ -81,7 +81,7 @@ body {
   width: 40px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #222;
 }
 
 .animais p {
@@ -105,7 +105,7 @@ body {
 }
 
 .animais-lista::-webkit-scrollbar-thumb {
-  background: #FB5;
+  background: #222;
   border-left: 4px solid #faf6ed;
   border-right: 4px solid #faf6ed;
 }
@@ -131,7 +131,7 @@ body {
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: .5rem;
-  color: #E54;
+  color: #20ded6;
   cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #222;
 }
 
 
@@ -165,13 +165,13 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #222;
 }
 
 .copy {
   grid-column: 3/5;
   margin-bottom: 2rem;
-  background: #FB5;
+  background: #222;
 }
 
 .copy p {
