@@ -217,6 +217,8 @@ body {
   animation: show .5s forwards;
 }
 
+
+
 @keyframes show {
   from {
     opacity: 0;
@@ -238,6 +240,16 @@ body {
   margin-left: 30px;
   display: block !important;
   animation: showAccordion .7s forwards;
+}
+
+.js-accordion dt::after{
+  content: '⮟';
+  margin-left: 10px;
+}
+
+.js-accordion dt.ativo::after{
+  content: '⮝';
+  margin-left: 10px;
 }
 
 @keyframes showAccordion {

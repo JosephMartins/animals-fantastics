@@ -19,14 +19,25 @@ if(tabMenu.length && tabContent.length) {
 }
 
 
-const askAccordion = document.querySelectorAll('.js-accordion dt');
-const contentAccordion = document.querySelectorAll('.js-accordion dd');
-function activeAccordion(index){
-  contentAccordion[index].classList.toggle('ativo')
+function initAccordion(){
+  const askAccordion = document.querySelectorAll('.js-accordion dt');
+  const contentAccordion = document.querySelectorAll('.js-accordion dd');
+  const activeClass = 'ativo';
+
+  if(askAccordion.length && contentAccordion.length){
+    contentAccordion[0].classList.toggle(activeClass);
+
+    function activeAccordion(index){
+      contentAccordion[index].classList.toggle(activeClass)
+    }
+    askAccordion.forEach((accordion, index) => {
+      accordion.addEventListener('click', () => {
+        activeAccordion(index);
+        accordion.classList.toggle(activeClass);
+
+      })
+    })
+  }
 }
 
-askAccordion.forEach((accordion, index) => {
-  accordion.addEventListener('click', () => {
-    activeAccordion(index);
-  })
-})
+initAccordion();
