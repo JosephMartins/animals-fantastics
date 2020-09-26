@@ -16,5 +16,17 @@ if(tabMenu.length && tabContent.length) {
       activeTab(index);
     })
   })
-
 }
+
+
+const askAccordion = document.querySelectorAll('.js-accordion dt');
+const contentAccordion = document.querySelectorAll('.js-accordion dd');
+function activeAccordion(index){
+  contentAccordion[index].classList.toggle('ativo')
+}
+
+askAccordion.forEach((accordion, index) => {
+  accordion.addEventListener('click', () => {
+    activeAccordion(index);
+  })
+})

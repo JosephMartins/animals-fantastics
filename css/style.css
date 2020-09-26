@@ -132,6 +132,7 @@ body {
   margin-top: 2rem;
   margin-bottom: .5rem;
   color: #E54;
+  cursor: pointer;
 }
 
 .faq-lista dt::before {
@@ -143,11 +144,7 @@ body {
   background: #FB5;
 }
 
-.faq-lista dd {
-  font-family: Helvetica, Arial;
-  margin-bottom: .5rem;
-  margin-left: 30px;
-}
+
 
 .mapa {
   grid-column: 2;
@@ -230,3 +227,27 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+
+.faq-lista dd {
+  display: none;
+}
+
+.faq-lista dd.ativo{
+  font-family: Helvetica, Arial;
+  margin-bottom: .5rem;
+  margin-left: 30px;
+  display: block !important;
+  animation: showAccordion .7s forwards;
+}
+
+@keyframes showAccordion {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
